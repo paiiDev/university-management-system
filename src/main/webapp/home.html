@@ -1,0 +1,396 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>UCSPL</title>
+    <link
+      rel="stylesheet"
+      href="./css/bootstrap.min.css"
+    />
+    <script src="./js/bootstrap.bundle.min.js"></script>
+    <link rel="icon" type="image/x-icon" href="./images/ucspl.png" />
+  </head>
+  <body>
+    <nav
+      class="navbar navbar-expand-lg bg-body-tertiary rounded fixed-top"
+      aria-label="Thirteenth navbar example"
+    >
+      <div class="container-fluid">
+        <button
+          class="navbar-toggler"
+          type="button"
+          data-bs-toggle="collapse"
+          data-bs-target="#navbarsExample11"
+          aria-controls="navbarsExample11"
+          aria-expanded="false"
+          aria-label="Toggle navigation"
+        >
+          <span class="navbar-toggler-icon"></span>
+        </button>
+
+        <div class="collapse navbar-collapse d-lg-flex" id="navbarsExample11">
+          <a class="navbar-brand col-lg-3 me-0 d-none d-md-block" href="#">
+            <img src="./images/most-logo.jpeg" alt="most" width="80px" />
+          </a>
+          <ul class="navbar-nav col-lg-6 justify-content-lg-center">
+            <li class="nav-item">
+              <a class="nav-link active" aria-current="page" href="#">Home</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#vmb">About Us</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" aria-disabled="true" href="#f&s">Faculties & Staff</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" aria-disabled="true" href="#cu">Contact Us</a>
+            </li>
+            <li class="nav-item dropdown">
+              <a
+                class="nav-link dropdown-toggle"
+                href="#"
+                data-bs-toggle="dropdown"
+                aria-expanded="false"
+                >Login</a
+              >
+              <ul class="dropdown-menu">
+                <li><a class="dropdown-item" href="admin.html">Admin</a></li>
+                <li><a class="dropdown-item" href="studentLogin.jsp">Student</a></li>
+              </ul>
+            </li>
+          </ul>
+          <div class="d-lg-flex col-lg-3 justify-content-lg-end  d-none d-md-block">
+            <img src="./images/ucspl.png" alt="ucspl" width="80px"/>
+          </div>
+        </div>
+      </div>
+    </nav>
+
+    <!--This is for content-->
+    <main>
+      <div
+        id="myCarousel"
+        class="carousel slide mb-6 pointer-event"
+        data-bs-ride="carousel"
+      >
+        <div class="carousel-indicators">
+          <button
+            type="button"
+            data-bs-target="#myCarousel"
+            data-bs-slide-to="0"
+            class=""
+            aria-label="Slide 1"
+          ></button>
+          <button
+            type="button"
+            data-bs-target="#myCarousel"
+            data-bs-slide-to="1"
+            aria-label="Slide 2"
+            class=""
+          ></button>
+          <button
+            type="button"
+            data-bs-target="#myCarousel"
+            data-bs-slide-to="2"
+            aria-label="Slide 3"
+            class="active"
+            aria-current="true"
+          ></button>
+        </div>
+        <div class="carousel-inner">
+          <div class="carousel-item">
+            <div class="d-flex justify-content-center align-items-center">
+              <img
+                src="./images/photo_2024-09-01_14-44-30.jpg"
+                alt=""
+                height="600px"
+                width="900px"
+              />
+            </div>
+
+            <div class="container">
+              <div class="carousel-caption">
+                <h1 class="text-bg-warning py-2">Welcome to Our University</h1>
+                <p class="opacity-75">
+                  University of Computer Studies (Panglong) is trying to produce
+                  well-qualified computer technicians to support the development
+                  of region. It is also trying to upgrade not only the qualities
+                  but also the quantities.
+                </p>
+              </div>
+            </div>
+          </div>
+          <div class="carousel-item">
+            <div class="d-flex justify-content-center align-items-center">
+              <img
+                src="./images/photo_2024-09-01_14-44-39.jpg"
+                alt=""
+                height="600px"
+                width="900px"
+              />
+            </div>
+
+            <div class="container">
+              <div class="carousel-caption">
+                <h1 class="text-start">Night view of UCSPL</h1>
+                <p class="text-start">
+                  Together we will take every step to success.
+                </p>
+              </div>
+            </div>
+          </div>
+          <div class="carousel-item active">
+            <div class="d-flex justify-content-center align-items-center">
+              <img
+                src="./images/photo_2024-09-01_14-44-22.jpg"
+                alt=""
+                height="600px"
+                width="900px"
+              />
+            </div>
+            <div class="container">
+              <div class="carousel-caption text-end">
+                <h1 class="mb-5">
+                  <span class="text-bg-success px-2">
+                    University Of Computer Studies, Panglong</span
+                  >
+                </h1>
+              </div>
+            </div>
+          </div>
+        </div>
+        <button
+          class="carousel-control-prev"
+          type="button"
+          data-bs-target="#myCarousel"
+          data-bs-slide="prev"
+        >
+          <span
+            class="carousel-control-prev-icon bg-dark"
+            aria-hidden="true"
+          ></span>
+          <span class="visually-hidden">Previous</span>
+        </button>
+        <button
+          class="carousel-control-next"
+          type="button"
+          data-bs-target="#myCarousel"
+          data-bs-slide="next"
+        >
+          <span
+            class="carousel-control-next-icon bg-dark"
+            aria-hidden="true"
+          ></span>
+          <span class="visually-hidden">Next</span>
+        </button>
+      </div>
+
+      <!-- Marketing messaging and featurettes
+  ================================================== -->
+      <!-- Wrap the rest of the page in another container to center all the content. -->
+
+      <div class="container marketing" id="vmb">
+        <!-- Three columns of text below the carousel -->
+        <div class="row mt-5">
+          <div
+            class="col-lg-4 d-flex justify-content-center align-items-center flex-column mb-5"
+          >
+            <img
+              src="./images/building-columns-solid.svg"
+              alt=""
+              class="w-25"
+            />
+            <title>Placeholder</title>
+            <rect
+              width="100%"
+              height="100%"
+              fill="var(--bs-secondary-color)"
+            ></rect>
+            <h2 class="fw-normal">VISION</h2>
+            <p class="w-75 text-center">
+              To promote the computing education for the development of
+              manufacturing and business of nation, the job opportunities for
+              the citizens and the improvement of individual incomes.
+            </p>
+          </div>
+          <!-- /.col-lg-4 -->
+          <div
+            class="col-lg-4 d-flex justify-content-center align-items-center flex-column mb-5"
+          >
+            <img src="./images/graduation-cap-solid.svg" alt="" class="w-25" />
+            <title>Placeholder</title>
+            <rect
+              width="100%"
+              height="100%"
+              fill="var(--bs-secondary-color)"
+            ></rect>
+            <h2 class="fw-normal">MISSION</h2>
+            <p class="w-100 text-center">
+              To produce more experts who have the practical ability to invent,
+              install, experiment with, and apply computer hardware and software
+              with a view to making Myanmar a modern and developed Nation and to
+              train Information Technology (IT) professionals for Myanmar.
+            </p>
+          </div>
+          <!-- /.col-lg-4 -->
+          <div
+            class="col-lg-4 d-flex justify-content-center align-items-center flex-column mb-5"
+          >
+            <img
+              src="./images/clock-rotate-left-solid.svg"
+              alt=""
+              class="w-25"
+            />
+            <title>Placeholder</title>
+            <rect
+              width="100%"
+              height="100%"
+              fill="var(--bs-secondary-color)"
+            ></rect>
+            <h2 class="fw-normal">BACKGROUND</h2>
+            <p class="w-100 text-center">
+              Government Computer College (Panglong) was opened in the National
+              Solidarity and Development Association Hall in 4 September 2000.
+              In 20 January 2007, it was promoted into University Level and
+              become University of Computer Studies (Panglong).
+            </p>
+          </div>
+          <!-- /.col-lg-4 -->
+        </div>
+        <!-- /.row -->
+
+        <!-- START THE FEATURETTES -->
+
+        <hr class="featurette-divider" />
+
+        <div class="row featurette" id="f&s">
+          <div class="col-md-7">
+            <h2 class="featurette-heading fw-normal lh-1 my-3 fs-1 px-3">
+              Dr. Daw Myint Myint Khaing <br /><br />
+              <span class="text-body-secondary">Pro-Rector</span>
+            </h2>
+            <p class="lead px-3">
+              <span class="text-success">Biography</span><br />
+
+              Dr. Myint Myint Khaing is the Pro-rector of the University of
+              Computer Studies (Panglong), Myanmar. She graduated with B.Sc.
+              (Chemistry) from Taunggyi University, Myanmar in 1997. She also
+              received M.I.Sc. and Ph.D (IT) from University of Computer
+              Studies, Yangon, Myanmar in 2002 and 2007 respectively.
+              <br /><br />
+              <span class="text-success">Contact</span><br />
+
+              Email: myintmyintkhaing@ucspinlon.edu.mm
+            </p>
+          </div>
+          <div class="col-md-5 text-center">
+            <img
+              src="./images/Dr.-Myint-Myint-KhaingPrincipal-2-768x768.jpg"
+              alt=""
+              class="w-100"
+            />
+            <title>Placeholder</title>
+            <rect
+              width="100%"
+              height="100%"
+              fill="var(--bs-secondary-bg)"
+            ></rect>
+            <text x="50%" y="50%" fill="var(--bs-secondary-color)" dy=".3em">
+              Dr. Myint Myint Khaing
+              <br />
+              Pro-Rector
+            </text>
+          </div>
+        </div>
+
+        <hr class="featurette-divider" />
+
+        <div class="row featurette">
+          <div class="col-md-12 order-md-2">
+            <table class="table table-success table-striped">
+              <tr>
+                <th colspan="2">Departs in University Of Computer Studies, Panglong</th>
+              </tr>
+              <tr>
+                <th>Academic</th><th>Management</th>
+              </tr>
+              <tr>
+                <td>Faculty Of Computer Science</td>
+                <td>Department of Administrative & Management</td>
+              </tr>
+              <tr>
+                <td>Faculty of Computer System & Technologies</td>
+                <td>Department of Student Affairs</td>
+              </tr>
+              <tr>
+                <td>Faculty of Information Science</td>
+                <td>Department of Finance</td>
+              </tr>
+              <tr>
+                <td>Faculty of Computing</td>
+                <td></td>
+              </tr>
+              <tr>
+                <td>Department of Information Technology Supporting & Maintenance</td>
+                <td></td>
+              </tr>
+              <tr>
+                <td>Department of Natural Science</td>
+                <td></td>
+              </tr>
+              <tr>
+                <td>Department of Languages</td>
+                <td></td>
+              </tr>
+            </table>
+          </div>
+        </div>
+
+        <hr class="featurette-divider" />
+
+        <div class="row featurette" id="cu">
+          <div class="col-md-7">
+            <h2 class="featurette-heading fw-normal lh-1">
+              Contact Us
+            </h2>
+            <p class="lead">
+               University of Computer Studies (Panglong)
+Qtr. 3, Union Road, Loi Lem Township, Loi Lem, Southern Shan State, Myanmar <br>
+Postal Code: 06111 <br>
+ +81-2310453 <br>
+ +81-2310458 <br>
+ admin@ucspinlon.edu.mm
+            </p>
+          </div>
+          <div class="col-md-5">
+              <img src="./images/location.png" alt="" class="w-100">            
+              <title>Placeholder</title>
+              <rect
+                width="100%"
+                height="100%"
+                fill="var(--bs-secondary-bg)"
+              ></rect>
+              <text x="50%" y="50%" fill="var(--bs-secondary-color)" dy=".3em">
+                Location of University of Computer Studies, Panglong
+              </text>
+          </div>
+        </div>
+
+        <hr class="featurette-divider" />
+
+        <!-- /END THE FEATURETTES -->
+      </div>
+      <!-- /.container -->
+
+      <!-- FOOTER -->
+      <footer class="container">
+        <p class="float-end"><a href="#">Back to top</a></p>
+        <p>
+          © 2023-2024 Group-I (Second Year - A) · <a href="#">Privacy</a> ·
+          <a href="#">Terms</a>
+        </p>
+      </footer>
+    </main>
+  </body>
+</html>

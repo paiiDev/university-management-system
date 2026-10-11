@@ -1,0 +1,13 @@
+# ---------------------------------------------------------------------------
+# Copy this file to application.properties and fill in your own values.
+#
+# Values may also be supplied (and overridden) through environment variables:
+#   DB_URL, DB_USER, DB_PASSWORD, ADMIN_USERNAME, ADMIN_PASSWORD
+# ---------------------------------------------------------------------------
+
+db.url=jdbc:mysql://localhost:3306/ums
+db.user=root
+db.password=changeme
+
+admin.username=admin@ucspl
+admin.password=changeme

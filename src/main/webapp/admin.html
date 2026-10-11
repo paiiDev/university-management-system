@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Admin Login</title>
+    <link rel="stylesheet" href="./css/bootstrap.min.css">
+    <script src="./js/bootstrap.bundle.min.js"></script>
+    <style>
+        body{
+            background-image: url("./images/IMG_20240903_172722.jpg");
+            background-size: cover;
+            background-position: center;
+        
+       
+        }
+        
+        .form-signin{
+            width: 320px;
+            backdrop-filter: blur(10px);
+            border: 1px solid wheat;
+            padding-left: 15px;
+            padding-right: 15px;
+            border-radius: 10px;
+            background-color: rgba(rgb(182, 182, 182), rgb(217, 217, 217), rgb(196, 196, 196), 0.2);
+        }
+    </style>
+    <link rel="shortcut icon" href="./images/ucspl.png" type="image/x-icon">
+</head>
+<body>
+    <div class="container">
+        <main class="form-signin mx-auto my-5 py-3">
+  <form action='loginServlet' method='post'>
+    <img class="mb-4" src="./images/ucspl.png" alt="" width="72" height="72">
+    <h1 class="h3 mb-3 fw-normal">Please login</h1>
+
+    <div class="form-floating mb-3">
+      <input type="text" name='userName' class="form-control" id="floatingInput" placeholder="name@example.com">
+      <label for="floatingInput">Username</label>
+    </div>
+    <div class="form-floating mb-4">
+      <input type="password" name='password' class="form-control" id="floatingPassword" placeholder="Password">
+      <label for="floatingPassword">Password</label>
+    </div>
+
+
+    <button class="btn btn-primary w-100 py-2" type="submit">Login</button>
+    <p class="mt-5 mb-3 text-white">© 2023-2024 Group-I (Second Year - A)</p>
+  </form>
+</main>
+    </div>
+    
+   
+</body>
+</html>
