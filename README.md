@@ -21,6 +21,26 @@ Built with **Jakarta Servlet / JSP**, **Apache Tomcat 10.1** and **MySQL 8**.
 
 ---
 
+## Screenshots
+
+| Landing page | Admin dashboard |
+|--------------|-----------------|
+| ![UMS-1](images/UMS-1.png) | ![UMS-2](images/UMS-2.png) |
+
+| Student registration | Student accounts |
+|----------------------|------------------|
+| ![UMS-3](images/UMS-3.png) | ![UMS-4](images/UMS-4.png) |
+
+| Timetable & tutorials | Announcements |
+|-----------------------|---------------|
+| ![UMS-5](images/UMS-5.png) | ![UMS-6](images/UMS-6.png) |
+
+| Student dashboard |
+|-------------------|
+| ![UMS-7](images/UMS-7.png) |
+
+---
+
 ## Technology stack
 
 - Java 21 (source/target)
